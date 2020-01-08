@@ -120,15 +120,33 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DLL\avcodec-53.dll" />
-    <Content Include="DLL\avdevice-53.dll" />
-    <Content Include="DLL\avfilter-2.dll" />
-    <Content Include="DLL\avformat-53.dll" />
-    <Content Include="DLL\avutil-51.dll" />
-    <Content Include="DLL\IPPrototyper.exe" />
-    <Content Include="DLL\postproc-52.dll" />
-    <Content Include="DLL\swresample-0.dll" />
-    <Content Include="DLL\swscale-2.dll" />
+    <Content Include="DLL\avcodec-53.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DLL\avdevice-53.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DLL\avfilter-2.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DLL\avformat-53.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DLL\avutil-51.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DLL\IPPrototyper.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DLL\postproc-52.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DLL\swresample-0.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DLL\swscale-2.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

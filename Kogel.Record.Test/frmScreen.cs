@@ -16,7 +16,7 @@ namespace Kogel.Record.Test
 	{
 		private ScreenRecorder recorder { get; set; }
 		private string recorderPath { get; set; }
-		public frmScreen()
+	 	public frmScreen()
 		{
 			InitializeComponent();
 			//初始化录制器
