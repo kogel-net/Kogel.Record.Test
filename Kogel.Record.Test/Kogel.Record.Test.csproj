@@ -34,25 +34,25 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
-      <HintPath>..\packages\Kogel.Record.1.0.4\lib\net461\AForge.dll</HintPath>
+      <HintPath>..\packages\Kogel.Record.1.0.5\lib\net461\AForge.dll</HintPath>
     </Reference>
     <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
-      <HintPath>..\packages\Kogel.Record.1.0.4\lib\net461\AForge.Video.dll</HintPath>
+      <HintPath>..\packages\Kogel.Record.1.0.5\lib\net461\AForge.Video.dll</HintPath>
     </Reference>
     <Reference Include="AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\Kogel.Record.1.0.4\lib\net461\AForge.Video.DirectShow.dll</HintPath>
+      <HintPath>..\packages\Kogel.Record.1.0.5\lib\net461\AForge.Video.DirectShow.dll</HintPath>
     </Reference>
     <Reference Include="AForge.Video.FFMPEG, Version=2.2.5.0, Culture=neutral, PublicKeyToken=03563089b1be05dd, processorArchitecture=x86">
-      <HintPath>..\packages\Kogel.Record.1.0.4\lib\net461\AForge.Video.FFMPEG.dll</HintPath>
+      <HintPath>..\packages\Kogel.Record.1.0.5\lib\net461\AForge.Video.FFMPEG.dll</HintPath>
     </Reference>
     <Reference Include="Kogel.Record, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Kogel.Record.1.0.4\lib\net461\Kogel.Record.dll</HintPath>
+      <HintPath>..\packages\Kogel.Record.1.0.5\lib\net461\Kogel.Record.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.DirectX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
-      <HintPath>..\packages\Kogel.Record.1.0.4\lib\net461\Microsoft.DirectX.dll</HintPath>
+      <HintPath>..\packages\Kogel.Record.1.0.5\lib\net461\Microsoft.DirectX.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.DirectX.DirectSound, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
-      <HintPath>..\packages\Kogel.Record.1.0.4\lib\net461\Microsoft.DirectX.DirectSound.dll</HintPath>
+      <HintPath>..\packages\Kogel.Record.1.0.5\lib\net461\Microsoft.DirectX.DirectSound.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -120,33 +120,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DLL\avcodec-53.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="DLL\avdevice-53.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="DLL\avfilter-2.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="DLL\avformat-53.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="DLL\avutil-51.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="DLL\IPPrototyper.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="DLL\postproc-52.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="DLL\swresample-0.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="DLL\swscale-2.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="DLL\avcodec-53.dll" />
+    <Content Include="DLL\avdevice-53.dll" />
+    <Content Include="DLL\avfilter-2.dll" />
+    <Content Include="DLL\avformat-53.dll" />
+    <Content Include="DLL\avutil-51.dll" />
+    <Content Include="DLL\IPPrototyper.exe" />
+    <Content Include="DLL\postproc-52.dll" />
+    <Content Include="DLL\swresample-0.dll" />
+    <Content Include="DLL\swscale-2.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
