@@ -14,9 +14,12 @@ namespace Kogel.Record.Test
 		[STAThread]
 		static void Main()
 		{
+			//初始化DLL配置
+			Global.InitDllPath();
+
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new Form1());
+			Application.Run(new frmScreen());
 		}
 	}
 }
